@@ -1,0 +1,62 @@
+F:\강의자료\source\이동준Ver\13장\CarManager_Modified\CarManager_Modified\bin\Debug\CarManager_Modified.exe.config
+F:\강의자료\source\이동준Ver\13장\CarManager_Modified\CarManager_Modified\bin\Debug\CarManager_Modified.exe
+F:\강의자료\source\이동준Ver\13장\CarManager_Modified\CarManager_Modified\bin\Debug\CarManager_Modified.pdb
+F:\강의자료\source\이동준Ver\13장\CarManager_Modified\CarManager_Modified\obj\Debug\CarManager_Modified.Form1.resources
+F:\강의자료\source\이동준Ver\13장\CarManager_Modified\CarManager_Modified\obj\Debug\CarManager_Modified.Properties.Resources.resources
+F:\강의자료\source\이동준Ver\13장\CarManager_Modified\CarManager_Modified\obj\Debug\CarManager_Modified.csproj.GenerateResource.cache
+F:\강의자료\source\이동준Ver\13장\CarManager_Modified\CarManager_Modified\obj\Debug\CarManager_Modified.csproj.CoreCompileInputs.cache
+F:\강의자료\source\이동준Ver\13장\CarManager_Modified\CarManager_Modified\obj\Debug\CarManager_Modified.exe
+F:\강의자료\source\이동준Ver\13장\CarManager_Modified\CarManager_Modified\obj\Debug\CarManager_Modified.pdb
+F:\강의자료\source\이동준Ver\13장\CarManager_Modified\CarManager_Modified\obj\Debug\CarManager_Modified.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20200417\13장\CarManager_Modified\CarManager_Modified\bin\Debug\CarManager_Modified.exe.config
+C:\Users\KB\Desktop\20200417\13장\CarManager_Modified\CarManager_Modified\bin\Debug\CarManager_Modified.exe
+C:\Users\KB\Desktop\20200417\13장\CarManager_Modified\CarManager_Modified\bin\Debug\CarManager_Modified.pdb
+C:\Users\KB\Desktop\20200417\13장\CarManager_Modified\CarManager_Modified\obj\Debug\CarManager_Modified.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20200417\13장\CarManager_Modified\CarManager_Modified\obj\Debug\CarManager_Modified.Form1.resources
+C:\Users\KB\Desktop\20200417\13장\CarManager_Modified\CarManager_Modified\obj\Debug\CarManager_Modified.Properties.Resources.resources
+C:\Users\KB\Desktop\20200417\13장\CarManager_Modified\CarManager_Modified\obj\Debug\CarManager_Modified.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20200417\13장\CarManager_Modified\CarManager_Modified\obj\Debug\CarManager_Modified.exe
+C:\Users\KB\Desktop\20200417\13장\CarManager_Modified\CarManager_Modified\obj\Debug\CarManager_Modified.pdb
+F:\강의자료\source\이동준Ver\C# 주차관리\CarManager_Modified_PersonalTest\CarManager_Modified\bin\Debug\CarManager_Modified.exe.config
+F:\강의자료\source\이동준Ver\C# 주차관리\CarManager_Modified_PersonalTest\CarManager_Modified\bin\Debug\CarManager_Modified.exe
+F:\강의자료\source\이동준Ver\C# 주차관리\CarManager_Modified_PersonalTest\CarManager_Modified\bin\Debug\CarManager_Modified.pdb
+F:\강의자료\source\이동준Ver\C# 주차관리\CarManager_Modified_PersonalTest\CarManager_Modified\obj\Debug\CarManager_Modified.csprojAssemblyReference.cache
+F:\강의자료\source\이동준Ver\C# 주차관리\CarManager_Modified_PersonalTest\CarManager_Modified\obj\Debug\CarManager_Modified.Form1.resources
+F:\강의자료\source\이동준Ver\C# 주차관리\CarManager_Modified_PersonalTest\CarManager_Modified\obj\Debug\CarManager_Modified.Properties.Resources.resources
+F:\강의자료\source\이동준Ver\C# 주차관리\CarManager_Modified_PersonalTest\CarManager_Modified\obj\Debug\CarManager_Modified.csproj.GenerateResource.cache
+F:\강의자료\source\이동준Ver\C# 주차관리\CarManager_Modified_PersonalTest\CarManager_Modified\obj\Debug\CarManager_Modified.csproj.CoreCompileInputs.cache
+F:\강의자료\source\이동준Ver\C# 주차관리\CarManager_Modified_PersonalTest\CarManager_Modified\obj\Debug\CarManager_Modified.exe
+F:\강의자료\source\이동준Ver\C# 주차관리\CarManager_Modified_PersonalTest\CarManager_Modified\obj\Debug\CarManager_Modified.pdb
+C:\Users\KB\Desktop\20200424_공유할자료들\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\CarManager_Modified.exe.config
+C:\Users\KB\Desktop\20200424_공유할자료들\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\CarManager_Modified.exe
+C:\Users\KB\Desktop\20200424_공유할자료들\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\CarManager_Modified.pdb
+C:\Users\KB\Desktop\20200424_공유할자료들\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20200424_공유할자료들\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.Form1.resources
+C:\Users\KB\Desktop\20200424_공유할자료들\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.Properties.Resources.resources
+C:\Users\KB\Desktop\20200424_공유할자료들\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20200424_공유할자료들\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.exe
+C:\Users\KB\Desktop\20200424_공유할자료들\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.pdb
+E:\C#\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\CarManager_Modified.exe.config
+E:\C#\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\CarManager_Modified.exe
+E:\C#\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\CarManager_Modified.pdb
+E:\C#\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.csprojAssemblyReference.cache
+E:\C#\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.Form1.resources
+E:\C#\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.Properties.Resources.resources
+E:\C#\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.csproj.GenerateResource.cache
+E:\C#\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.exe
+E:\C#\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.pdb
+E:\C#\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\Newtonsoft.Json.dll
+E:\C#\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\Newtonsoft.Json.xml
+E:\C#\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.csproj.CopyComplete
+E:\portfolio\Parking-management-system\CarManager_Modified\bin\Debug\CarManager_Modified.exe.config
+E:\portfolio\Parking-management-system\CarManager_Modified\bin\Debug\CarManager_Modified.exe
+E:\portfolio\Parking-management-system\CarManager_Modified\bin\Debug\CarManager_Modified.pdb
+E:\portfolio\Parking-management-system\CarManager_Modified\bin\Debug\Newtonsoft.Json.dll
+E:\portfolio\Parking-management-system\CarManager_Modified\bin\Debug\Newtonsoft.Json.xml
+E:\portfolio\Parking-management-system\CarManager_Modified\obj\Debug\CarManager_Modified.csprojAssemblyReference.cache
+E:\portfolio\Parking-management-system\CarManager_Modified\obj\Debug\CarManager_Modified.Form1.resources
+E:\portfolio\Parking-management-system\CarManager_Modified\obj\Debug\CarManager_Modified.Properties.Resources.resources
+E:\portfolio\Parking-management-system\CarManager_Modified\obj\Debug\CarManager_Modified.csproj.GenerateResource.cache
+E:\portfolio\Parking-management-system\CarManager_Modified\obj\Debug\CarManager_Modified.csproj.CopyComplete
+E:\portfolio\Parking-management-system\CarManager_Modified\obj\Debug\CarManager_Modified.exe
+E:\portfolio\Parking-management-system\CarManager_Modified\obj\Debug\CarManager_Modified.pdb
