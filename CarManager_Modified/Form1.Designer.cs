@@ -32,7 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridView_parkingManager = new System.Windows.Forms.DataGridView();
-            this.listBox_logPrint = new System.Windows.Forms.ListBox();
+            this.logPrint = new System.Windows.Forms.ListBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.textBox_parkingSpot = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,12 +41,12 @@
             this.textBox_driverName = new System.Windows.Forms.TextBox();
             this.textBox_carNumber = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.button_parkingRemove = new System.Windows.Forms.Button();
-            this.button_parkingAdd = new System.Windows.Forms.Button();
+            this.pRemoveBtn = new System.Windows.Forms.Button();
+            this.pAddBtn = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox_parkingSpot_lookUp = new System.Windows.Forms.TextBox();
-            this.button_SelectedLookUp = new System.Windows.Forms.Button();
+            this.selLookUpBtn = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.timer_DisplayNowtime = new System.Windows.Forms.Timer(this.components);
             this.statusStrip_Now = new System.Windows.Forms.StatusStrip();
@@ -100,15 +100,15 @@
             this.dataGridView_parkingManager.TabIndex = 2;
             this.dataGridView_parkingManager.CurrentCellChanged += new System.EventHandler(this.dataGridView_parkingManager_CurrentCellChanged);
             // 
-            // listBox_logPrint
+            // logPrint
             // 
-            this.listBox_logPrint.FormattingEnabled = true;
-            this.listBox_logPrint.HorizontalScrollbar = true;
-            this.listBox_logPrint.ItemHeight = 14;
-            this.listBox_logPrint.Location = new System.Drawing.Point(17, 551);
-            this.listBox_logPrint.Name = "listBox_logPrint";
-            this.listBox_logPrint.Size = new System.Drawing.Size(674, 74);
-            this.listBox_logPrint.TabIndex = 7;
+            this.logPrint.FormattingEnabled = true;
+            this.logPrint.HorizontalScrollbar = true;
+            this.logPrint.ItemHeight = 14;
+            this.logPrint.Location = new System.Drawing.Point(17, 551);
+            this.logPrint.Name = "logPrint";
+            this.logPrint.Size = new System.Drawing.Size(674, 74);
+            this.logPrint.TabIndex = 7;
             // 
             // groupBox4
             // 
@@ -119,8 +119,8 @@
             this.groupBox4.Controls.Add(this.textBox_driverName);
             this.groupBox4.Controls.Add(this.textBox_carNumber);
             this.groupBox4.Controls.Add(this.label10);
-            this.groupBox4.Controls.Add(this.button_parkingRemove);
-            this.groupBox4.Controls.Add(this.button_parkingAdd);
+            this.groupBox4.Controls.Add(this.pRemoveBtn);
+            this.groupBox4.Controls.Add(this.pAddBtn);
             this.groupBox4.Controls.Add(this.label11);
             this.groupBox4.Location = new System.Drawing.Point(13, 71);
             this.groupBox4.Name = "groupBox4";
@@ -185,29 +185,29 @@
             this.label10.TabIndex = 4;
             this.label10.Text = "차주이름";
             // 
-            // button_parkingRemove
+            // pRemoveBtn
             // 
-            this.button_parkingRemove.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button_parkingRemove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_parkingRemove.Location = new System.Drawing.Point(205, 57);
-            this.button_parkingRemove.Name = "button_parkingRemove";
-            this.button_parkingRemove.Size = new System.Drawing.Size(75, 27);
-            this.button_parkingRemove.TabIndex = 2;
-            this.button_parkingRemove.Text = "출차";
-            this.button_parkingRemove.UseVisualStyleBackColor = false;
-            this.button_parkingRemove.Click += new System.EventHandler(this.button_parkingRemove_Click);
+            this.pRemoveBtn.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.pRemoveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pRemoveBtn.Location = new System.Drawing.Point(205, 57);
+            this.pRemoveBtn.Name = "pRemoveBtn";
+            this.pRemoveBtn.Size = new System.Drawing.Size(75, 27);
+            this.pRemoveBtn.TabIndex = 2;
+            this.pRemoveBtn.Text = "출차";
+            this.pRemoveBtn.UseVisualStyleBackColor = false;
+            this.pRemoveBtn.Click += new System.EventHandler(this.button_parkingRemove_Click);
             // 
-            // button_parkingAdd
+            // pAddBtn
             // 
-            this.button_parkingAdd.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button_parkingAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_parkingAdd.Location = new System.Drawing.Point(205, 23);
-            this.button_parkingAdd.Name = "button_parkingAdd";
-            this.button_parkingAdd.Size = new System.Drawing.Size(75, 27);
-            this.button_parkingAdd.TabIndex = 1;
-            this.button_parkingAdd.Text = "주차";
-            this.button_parkingAdd.UseVisualStyleBackColor = false;
-            this.button_parkingAdd.Click += new System.EventHandler(this.button_parkingAdd_Click);
+            this.pAddBtn.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.pAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pAddBtn.Location = new System.Drawing.Point(205, 23);
+            this.pAddBtn.Name = "pAddBtn";
+            this.pAddBtn.Size = new System.Drawing.Size(75, 27);
+            this.pAddBtn.TabIndex = 1;
+            this.pAddBtn.Text = "주차";
+            this.pAddBtn.UseVisualStyleBackColor = false;
+            this.pAddBtn.Click += new System.EventHandler(this.button_parkingAdd_Click);
             // 
             // label11
             // 
@@ -221,7 +221,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.textBox_parkingSpot_lookUp);
-            this.groupBox1.Controls.Add(this.button_SelectedLookUp);
+            this.groupBox1.Controls.Add(this.selLookUpBtn);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Location = new System.Drawing.Point(351, 71);
             this.groupBox1.Name = "groupBox1";
@@ -237,17 +237,17 @@
             this.textBox_parkingSpot_lookUp.Size = new System.Drawing.Size(100, 21);
             this.textBox_parkingSpot_lookUp.TabIndex = 5;
             // 
-            // button_SelectedLookUp
+            // selLookUpBtn
             // 
-            this.button_SelectedLookUp.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button_SelectedLookUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_SelectedLookUp.Location = new System.Drawing.Point(205, 19);
-            this.button_SelectedLookUp.Name = "button_SelectedLookUp";
-            this.button_SelectedLookUp.Size = new System.Drawing.Size(75, 27);
-            this.button_SelectedLookUp.TabIndex = 1;
-            this.button_SelectedLookUp.Text = "조회";
-            this.button_SelectedLookUp.UseVisualStyleBackColor = false;
-            this.button_SelectedLookUp.Click += new System.EventHandler(this.button_SelectedLookUp_Click);
+            this.selLookUpBtn.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.selLookUpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.selLookUpBtn.Location = new System.Drawing.Point(205, 19);
+            this.selLookUpBtn.Name = "selLookUpBtn";
+            this.selLookUpBtn.Size = new System.Drawing.Size(75, 27);
+            this.selLookUpBtn.TabIndex = 1;
+            this.selLookUpBtn.Text = "조회";
+            this.selLookUpBtn.UseVisualStyleBackColor = false;
+            this.selLookUpBtn.Click += new System.EventHandler(this.button_SelectedLookUp_Click);
             // 
             // label5
             // 
@@ -266,6 +266,7 @@
             // 
             // statusStrip_Now
             // 
+            this.statusStrip_Now.BackColor = System.Drawing.SystemColors.Window;
             this.statusStrip_Now.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip_Now.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel_Now});
@@ -364,7 +365,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(710, 661);
-            this.Controls.Add(this.listBox_logPrint);
+            this.Controls.Add(this.logPrint);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.statusStrip_Now);
@@ -394,7 +395,7 @@
 
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.DataGridView dataGridView_parkingManager;
-        private System.Windows.Forms.ListBox listBox_logPrint;
+        private System.Windows.Forms.ListBox logPrint;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.TextBox textBox_parkingSpot;
         private System.Windows.Forms.Label label1;
@@ -403,12 +404,12 @@
         private System.Windows.Forms.TextBox textBox_driverName;
         private System.Windows.Forms.TextBox textBox_carNumber;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button_parkingRemove;
-        private System.Windows.Forms.Button button_parkingAdd;
+        private System.Windows.Forms.Button pRemoveBtn;
+        private System.Windows.Forms.Button pAddBtn;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox textBox_parkingSpot_lookUp;
-        private System.Windows.Forms.Button button_SelectedLookUp;
+        private System.Windows.Forms.Button selLookUpBtn;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DataGridViewTextBoxColumn parkingSpotDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn carNumberDataGridViewTextBoxColumn;
@@ -421,12 +422,12 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.BindingSource parkingCarBindingSource;
-        private System.Windows.Forms.Timer timer_DisplayNowtime;
         private System.Windows.Forms.StatusStrip statusStrip_Now;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel_Now;
         private System.Windows.Forms.Button closeBtn;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Timer timer_DisplayNowtime;
     }
 }
 

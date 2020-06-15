@@ -259,10 +259,10 @@ namespace CarManager_Modified
 
         private void WriteLog(string contents)
         {
-            string logContents = "[" + DateTime.Now.ToString("yyyy/mm/dd HH:mm:ss") + "] " + contents; //연/월/일 시:분:초 형식으로 로그찍기
+            string logContents = "[" + DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss") + "] " + contents; //연/월/일 시:분:초 형식으로 로그찍기
             DataManager.PrintLog(logContents);
             MessageBox.Show(contents);
-            listBox_logPrint.Items.Insert(0, logContents);
+            logPrint.Items.Insert(0, logContents);
         }
 
         private void closeBtn_Click(object sender, EventArgs e)

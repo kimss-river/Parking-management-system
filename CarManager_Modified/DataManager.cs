@@ -53,39 +53,39 @@ namespace CarManager_Modified
         public static void Save()
         {
             // 도서 XML 생성
-            string booksOutput = "";
-            booksOutput += "<cars>\n";
+            string carsOutput = "";
+            carsOutput += "<cars>\n";
             if(Cars.Count > 0)
             {
                 foreach (var item in Cars)
                 {
-                    booksOutput += "<car>\n";
-                    booksOutput += "  <parkingSpot>" + item.ParkingSpot + "</parkingSpot>\n";
-                    booksOutput += "  <carNumber>" + item.CarNumber + "</carNumber>\n";
-                    booksOutput += "  <driverName>" + item.DriverName + "</driverName>\n";
-                    booksOutput += "  <phoneNumber>" + item.PhoneNumber + "</phoneNumber>\n";
-                    booksOutput += "  <parkingTime>" + item.ParkingTime + "</parkingTime>\n";
-                    booksOutput += "</car>\n";
+                    carsOutput += "<car>\n";
+                    carsOutput += "  <parkingSpot>" + item.ParkingSpot + "</parkingSpot>\n";
+                    carsOutput += "  <carNumber>" + item.CarNumber + "</carNumber>\n";
+                    carsOutput += "  <driverName>" + item.DriverName + "</driverName>\n";
+                    carsOutput += "  <phoneNumber>" + item.PhoneNumber + "</phoneNumber>\n";
+                    carsOutput += "  <parkingTime>" + item.ParkingTime + "</parkingTime>\n";
+                    carsOutput += "</car>\n";
                 }
             }
             else //CreateFile에 의하여 파일을 만든 경우
             {
                 for(int i = 1; i <=5; i++)
                 {
-                    booksOutput += "<car>\n";
-                    booksOutput += $"  <parkingSpot>{i}</parkingSpot>\n";
-                    booksOutput += "  <carNumber></carNumber>\n";
-                    booksOutput += "  <driverName></driverName>\n";
-                    booksOutput += "  <phoneNumber></phoneNumber>\n";
-                    booksOutput += "  <parkingTime></parkingTime>\n";
-                    booksOutput += "</car>\n";
+                    carsOutput += "<car>\n";
+                    carsOutput += $"  <parkingSpot>{i}</parkingSpot>\n";
+                    carsOutput += "  <carNumber></carNumber>\n";
+                    carsOutput += "  <driverName></driverName>\n";
+                    carsOutput += "  <phoneNumber></phoneNumber>\n";
+                    carsOutput += "  <parkingTime></parkingTime>\n";
+                    carsOutput += "</car>\n";
                 }
             }
-            booksOutput += "</cars>";
+            carsOutput += "</cars>";
 
 
             // 저장
-            File.WriteAllText(@"./Cars.xml", booksOutput);
+            File.WriteAllText(@"./Cars.xml", carsOutput);
         }
 
         public static void PrintLog(string contents) //ParkingHistory 폴더 안의 ParkingHistory.txt파일에 로그 저장
